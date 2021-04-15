@@ -1,12 +1,12 @@
 import './App.css';
-import Person from './Person/Person';
+import ExpenseItem from './components/ExpenseItem'
 
 function App() {
   return (
     <div className="App">
         <h1>Hi, I am a react app</h1>
         <p>This is really work</p>
-        <Person/>
+        <ExpenseItem></ExpenseItem>
     </div>
   );
 }
